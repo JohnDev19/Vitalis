@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Basic Meta Tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Vitalis offers innovative and reliable healthcare solutions tailored to meet modern medical needs.">
+        <meta name="keywords" content="Vitalis, Healthcare Solutions, Medical Technology, Patient Care, Telemedicine, Health Services">
+        <meta name="author" content="JohnDev19">
+    
+        <!-- Title -->
+        <title>Vitalis - Innovative Healthcare Solutions</title>
+    
+        <!-- Open Graph Meta Tags -->
+        <meta property="og:title" content="Vitalis - Innovative Healthcare Solutions">
+        <meta property="og:description" content="Explore next-generation healthcare services and technologies with Vitalis.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="">
+        <meta property="og:image" content="2.jpg">
+    
+        <!-- Twitter Card Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Vitalis - Innovative Healthcare Solutions">
+        <meta name="twitter:description" content="Explore next-generation healthcare services and technologies with Vitalis.">
+        <meta name="twitter:image" content="2.jpg">
+    
+        <!-- Favicons -->
+        <link rel="icon" href="img/heart-pulse-fill.svg" type="image/x-icon">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/heart-pulse-fill.svg">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/heart-pulse-fill.svg">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/heart-pulse-fill.svg">
+        <link rel="manifest" href="/site.webmanifest">
+    
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+        <!-- Performance -->
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+        <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    </head>    
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="header-top">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <span>123 Medical Drive, Health City</span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="#">
+                        <span class="logo-icon"><i class="bi bi-heart-pulse-fill"></i></span>
+                        <span class="logo-text">Vitalis</span>
+                    </a>
+                </div>
+                <div class="menu-toggle" id="mobile-menu">
+                    <i class="bi bi-list"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#home" class="active">Home</a></li>
+                    <li class="nav-item"><a href="#about">About</a></li>
+                    <li class="nav-item"><a href="#services">Services</a></li>
+                    <li class="nav-item"><a href="#doctors">Doctors</a></li>
+                    <li class="nav-item"><a href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a href="#contact">Contact</a></li>
+                    <li class="nav-item appointment-btn"><a href="#appointment">Make Appointment</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Your Health Is Our <span class="highlight">Priority</span></h1>
+                <p>Healthcare solutions with a personal touch. Experience the future of medical care with Vitalis.</p>
+                <div class="hero-buttons">
+                    <a href="#appointment" class="btn btn-primary">Book Appointment</a>
+                    <a href="#services" class="btn btn-secondary">Our Services</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="20">0</span>
+                        <span class="stat-text">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="50">0</span>
+                        <span class="stat-text">Specialists</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="10000">0</span>
+                        <span class="stat-text">Happy Patients</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="img/doctor-nurses-special-equipment.jpg" alt="Medical professionals">
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-calendar-check"></i>
+                    </div>
+                    <h3>Easy Scheduling</h3>
+                    <p>Book appointments online or via phone with our 24/7 scheduling system.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-shield-check"></i>
+                    </div>
+                    <h3>Quality Care</h3>
+                    <p>Internationally accredited medical services with the highest standards.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-people"></i>
+                    </div>
+                    <h3>Expert Doctors</h3>
+                    <p>Our team consists of renowned specialists in various medical fields.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-building-gear"></i>
+                    </div>
+                    <h3>Modern Facilities</h3>
+                    <p>State-of-the-art equipment and comfortable healing environments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">About Us</span>
+                <h2 class="section-title">Leading Healthcare Provider Since 2003</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="img/about-img.jpg" alt="Vitalis Hospital Building">
+                    <div class="experience-badge">
+                        <span class="years">20+</span>
+                        <span class="text">Years of Excellence</span>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>We Are Committed To Providing Safe Health Solutions</h3>
+                    <p>Vitalis was founded with a mission to revolutionize healthcare delivery by combining medical excellence with compassionate care. Our journey began with a simple vision: to create a healthcare institution where patients feel valued, respected, and well-cared for.</p>
+                    <p>Today, we've grown into a comprehensive healthcare network with multiple specialties, cutting-edge technology, and a team of dedicated professionals who share our commitment to excellence.</p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>Qualified Medical Professionals</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>Emergency Care & Support</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>Modern Medical Technology</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>Affordable Healthcare Plans</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Our Services</span>
+                <h2 class="section-title">Comprehensive Healthcare Solutions</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="bi bi-heart"></i>
+                    </div>
+                    <h3>Cardiology</h3>
+                    <p>Comprehensive heart care with diagnostic and treatment options for all cardiac conditions.</p>
+                    <a href="#" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="bi bi-lungs"></i>
+                    </div>
+                    <h3>Pulmonology</h3>
+                    <p>Expert care for respiratory conditions with state-of-the-art pulmonary function testing.</p>
+                    <a href="#" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="bi bi-capsule"></i>
+                    </div>
+                    <h3>Neurology</h3>
+                    <p>Specialized care for disorders of the brain, spine, and nervous system with treatments.</p>
+                    <a href="#" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="bi bi-droplet"></i>
+                    </div>
+                    <h3>Hematology</h3>
+                    <p>Comprehensive diagnosis and treatment of blood disorders and diseases by expert hematologists.</p>
+                    <a href="#" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="bi bi-eyedropper"></i>
+                    </div>
+                    <h3>Ophthalmology</h3>
+                    <p>Complete eye care services including routine exams, surgery, and treatment for eye diseases.</p>
+                    <a href="#" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="bi bi-bandaid"></i>
+                    </div>
+                    <h3>Dermatology</h3>
+                    <p>Medical and cosmetic skin care services for patients of all ages with various skin conditions.</p>
+                    <a href="#" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section id="appointment" class="appointment">
+        <div class="container">
+            <div class="appointment-content">
+                <div class="appointment-text">
+                    <span class="section-subtitle">Book Appointment</span>
+                    <h2 class="section-title">Schedule Your Visit Today</h2>
+                    <p>Take the first step towards better health by scheduling an appointment with our specialists. We offer flexible timing and multiple booking options for your convenience.</p>
+                    <div class="contact-info-list">
+                        <div class="contact-info-item">
+                            <i class="bi bi-telephone-fill"></i>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>+1 (800) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <i class="bi bi-envelope-fill"></i>
+                            <div>
+                                <h4>Email Us</h4>
+                                <p>appointments@vitalis.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="appointment-form">
+                    <form id="appointmentForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Your Phone" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="department" required>
+                                <option value="" disabled selected>Select Department</option>
+                                <option value="cardiology">Cardiology</option>
+                                <option value="neurology">Neurology</option>
+                                <option value="pulmonology">Pulmonology</option>
+                                <option value="dermatology">Dermatology</option>
+                                <option value="ophthalmology">Ophthalmology</option>
+                                <option value="hematology">Hematology</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" id="date" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Additional Information" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Book Appointment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctors Section -->
+    <section id="doctors" class="doctors">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Our Specialists</span>
+                <h2 class="section-title">Meet Our Expert Doctors</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="doctors-grid">
+                <div class="doctor-card">
+                    <div class="doctor-image">
+                        <img src="img/dr1.jpg" alt="Dr. Sonny Gutierrez">
+                        <div class="doctor-social">
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#"><i class="bi bi-twitter-x"></i></a>
+                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="doctor-info">
+                        <h3>Dr. Sonny Gutierrez</h3>
+                        <span class="doctor-specialty">Cardiologist</span>
+                        <p>Specializing in interventional cardiology with over 15 years of experience in treating complex cardiac conditions.</p>
+                    </div>
+                </div>
+                <div class="doctor-card">
+                    <div class="doctor-image">
+                        <img src="img/dr2.jpg" alt="Dr. Michael Dominador">
+                        <div class="doctor-social">
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#"><i class="bi bi-twitter-x"></i></a>
+                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="doctor-info">
+                        <h3>Dr. Michael Dominador</h3>
+                        <span class="doctor-specialty">Neurologist</span>
+                        <p>Board-certified neurologist specializing in stroke prevention and treatment of neurological disorders.</p>
+                    </div>
+                </div>
+                <div class="doctor-card">
+                    <div class="doctor-image">
+                        <img src="img/dr3.jpg" alt="Dr. Emily Fernando">
+                        <div class="doctor-social">
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#"><i class="bi bi-twitter-x"></i></a>
+                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="doctor-info">
+                        <h3>Dr. Emily Rodriguez</h3>
+                        <span class="doctor-specialty">Dermatologist</span>
+                        <p>Expert in medical and cosmetic dermatology with training in skin cancer detection and treatment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Testimonials</span>
+                <h2 class="section-title">What Our Patients Say</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="testimonial-slider" id="testimonialSlider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="testimonial-quote">
+                            <i class="bi bi-quote"></i>
+                        </div>
+                        <p>The care I received at Vitalis was exceptional. From the moment I walked in, I felt valued and respected. The doctors took the time to listen to my concerns and developed a treatment plan tailored to my needs.</p>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="img/pt1.jpg" alt="Robert Carrido">
+                            </div>
+                            <div class="author-info">
+                                <h4>Robert Carrido</h4>
+                                <span>Cardiac Patient</span>
+                                <div class="rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-quote">
+                            <i class="bi bi-quote"></i>
+                        </div>
+                        <p>I've been a patient at Vitalis for over 5 years, and I'm consistently impressed by their professionalism and attention to detail. The staff is friendly, and the facilities are modern and clean. Highly recommended!</p>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="img/pt2.jpg" alt="Jennifer Salas">
+                            </div>
+                            <div class="author-info">
+                                <h4>Jennifer Salas</h4>
+                                <span>Regular Patient</span>
+                                <div class="rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-quote">
+                            <i class="bi bi-quote"></i>
+                        </div>
+                        <p>After my surgery at Vitalis, the recovery process was much smoother than I expected. The follow-up care was thorough, and the nurses were incredibly supportive. I'm grateful for the excellent care I received.</p>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="img/pt3.jpg" alt="David Miranda">
+                            </div>
+                            <div class="author-info">
+                                <h4>David Miranda</h4>
+                                <span>Surgery Patient</span>
+                                <div class="rating">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="testimonial-prev" id="testimonialPrev"><i class="bi bi-arrow-left"></i></button>
+                <div class="testimonial-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+                <button class="testimonial-next" id="testimonialNext"><i class="bi bi-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="bi bi-hospital"></i>
+                    </div>
+                    <div class="stat-number" data-count="20">0</div>
+                    <div class="stat-text">Years of Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="bi bi-person-check"></i>
+                    </div>
+                    <div class="stat-number" data-count="50">0</div>
+                    <div class="stat-text">Expert Doctors</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="bi bi-award"></i>
+                    </div>
+                    <div class="stat-number" data-count="15">0</div>
+                    <div class="stat-text">Awards Received</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="bi bi-people"></i>
+                    </div>
+                    <div class="stat-number" data-count="10000">0</div>
+                    <div class="stat-text">Happy Patients</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Latest News</span>
+                <h2 class="section-title">Health Tips & Articles</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="img/blog1.jpg" alt="Heart Health Tips">
+                        <div class="blog-category">Cardiology</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="bi bi-calendar3"></i> May 15, 2025</span>
+                            <span><i class="bi bi-person"></i> Dr. Johnson</span>
+                        </div>
+                        <h3>10 Tips for a Healthy Heart at Any Age</h3>
+                        <p>Discover simple lifestyle changes that can significantly improve your heart health and reduce the risk of cardiovascular disease.</p>
+                        <a href="#" class="blog-link">Read More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="img/blog2.jpg" alt="Mental Health">
+                        <div class="blog-category">Mental Health</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="bi bi-calendar3"></i> June 2, 2025</span>
+                            <span><i class="bi bi-person"></i> Dr. Martinez</span>
+                        </div>
+                        <h3>Understanding Anxiety: Causes and Treatments</h3>
+                        <p>Learn about the common causes of anxiety disorders and the various treatment options available for managing symptoms effectively.</p>
+                        <a href="#" class="blog-link">Read More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="img/blog3.jpg" alt="Nutrition Guide">
+                        <div class="blog-category">Nutrition</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="bi bi-calendar3"></i> July 10, 2025</span>
+                            <span><i class="bi bi-person"></i> Dr. Williams</span>
+                        </div>
+                        <h3>The Complete Guide to Balanced Nutrition</h3>
+                        <p>Explore the fundamentals of a balanced diet and how proper nutrition can help prevent chronic diseases and improve overall health.</p>
+                        <a href="#" class="blog-link">Read More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-more">
+                <a href="#" class="btn btn-secondary">View All Articles</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-bg-shape"></div>
+        <div class="contact-bg-shape-2"></div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Contact Us</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info-wrapper">
+                    <div class="contact-info-header">
+                        <h3>We're Here For You</h3>
+                        <p>Reach out to us through any of these channels and we'll respond as soon as possible.</p>
+                    </div>
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <div class="contact-card-icon">
+                                <i class="bi bi-geo-alt"></i>
+                            </div>
+                            <div class="contact-card-content">
+                                <h4>Our Location</h4>
+                                <p>123 Medical Drive<br>Health City, HC 12345</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-card-icon">
+                                <i class="bi bi-telephone"></i>
+                            </div>
+                            <div class="contact-card-content">
+                                <h4>Phone Number</h4>
+                                <p>+1 (800) 123-4567<br>+1 (800) 987-6543</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-card-icon">
+                                <i class="bi bi-envelope"></i>
+                            </div>
+                            <div class="contact-card-content">
+                                <h4>Email Address</h4>
+                                <p>contact@vitalis.com<br>info@vitalis.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-hours">
+                        <h4>Working Hours</h4>
+                        <div class="hours-grid">
+                            <div class="hours-item">
+                                <div class="day">
+                                    <i class="bi bi-calendar-week"></i>
+                                    <span>Monday - Friday</span>
+                                </div>
+                                <div class="time">8:00 AM - 8:00 PM</div>
+                            </div>
+                            <div class="hours-item">
+                                <div class="day">
+                                    <i class="bi bi-calendar-week"></i>
+                                    <span>Saturday</span>
+                                </div>
+                                <div class="time">9:00 AM - 6:00 PM</div>
+                            </div>
+                            <div class="hours-item">
+                                <div class="day">
+                                    <i class="bi bi-calendar-week"></i>
+                                    <span>Sunday</span>
+                                </div>
+                                <div class="time">10:00 AM - 4:00 PM</div>
+                            </div>
+                            <div class="hours-item emergency">
+                                <div class="day">
+                                    <i class="bi bi-hospital"></i>
+                                    <span>Emergency Care</span>
+                                </div>
+                                <div class="time">24/7</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <h4>Connect With Us</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="social-icon"><i class="bi bi-twitter-x"></i></a>
+                            <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <div class="form-header">
+                        <h3>Send Us a Message</h3>
+                        <p>Fill out the form below and our team will get back to you within 24 hours.</p>
+                    </div>
+                    <form id="contactForm" class="contact-form">
+                        <div class="input-group">
+                            <div class="input-wrapper">
+                                <label for="contactName">Your Name</label>
+                                <div class="input-field">
+                                    <i class="bi bi-person"></i>
+                                    <input type="text" id="contactName" placeholder="John Doe" required>
+                                </div>
+                            </div>
+                            <div class="input-wrapper">
+                                <label for="contactEmail">Your Email</label>
+                                <div class="input-field">
+                                    <i class="bi bi-envelope"></i>
+                                    <input type="email" id="contactEmail" placeholder="johndoe@example.com" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="contactPhone">Phone Number</label>
+                            <div class="input-field">
+                                <i class="bi bi-telephone"></i>
+                                <input type="tel" id="contactPhone" placeholder="+1 (123) 456-7890">
+                            </div>
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="contactSubject">Subject</label>
+                            <div class="input-field">
+                                <i class="bi bi-chat-left-text"></i>
+                                <input type="text" id="contactSubject" placeholder="How can we help you?" required>
+                            </div>
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="contactMessage">Your Message</label>
+                            <div class="input-field textarea-field">
+                                <i class="bi bi-pencil-square"></i>
+                                <textarea id="contactMessage" placeholder="Please provide details about your inquiry..." rows="5" required></textarea>
+                            </div>
+                        </div>
+                        <div class="form-footer">
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <i class="bi bi-send"></i>
+                                <span>Send Message</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map">
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215266754809!2d-73.98776692426385!3d40.75790657138946!2m3!1f0!2f3!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1710341595067!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column about-column">
+                    <div class="footer-logo">
+                        <a href="#">
+                            <span class="logo-icon"><i class="bi bi-heart-pulse-fill"></i></span>
+                            <span class="logo-text">Vitalis</span>
+                        </a>
+                    </div>
+                    <p class="footer-about">Vitalis is a premier healthcare provider committed to delivering exceptional medical services with compassion and care.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#doctors">Our Doctors</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Our Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Cardiology</a></li>
+                        <li><a href="#">Neurology</a></li>
+                        <li><a href="#">Pulmonology</a></li>
+                        <li><a href="#">Dermatology</a></li>
+                        <li><a href="#">Ophthalmology</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <span>123 Medical Drive, Health City, HC 12345</span>
+                        </li>
+                        <li>
+                            <i class="bi bi-telephone-fill"></i>
+                            <span>+1 (800) 123-4567</span>
+                        </li>
+                        <li>
+                            <i class="bi bi-envelope-fill"></i>
+                            <span>contact@vitalis.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Vitalis Healthcare. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+
+    <!-- js -->
+    <script src="script.js"></script>
+</body>
+</html>
